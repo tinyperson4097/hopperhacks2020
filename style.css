@@ -1,0 +1,423 @@
+html {
+  scroll-behavior: smooth;
+}
+
+@font-face {
+    font-family: 'poppinsmedium';
+    src: url('fonts/poppins-medium-webfont.woff2') format('woff2'),
+         url('fonts/poppins-medium-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'pontano_sansregular';
+    src: url('fonts/pontanosans-regular-webfont.woff2') format('woff2'),
+         url('fonts/pontanosans-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+.block{
+  display: block;
+}
+
+.footer{
+  display: flex;
+}
+
+.mottofooter{
+  font-size: 20px;
+}
+
+.recyclefooter{
+  height: 20px;
+  filter: invert(26%) sepia(10%) saturate(6273%) hue-rotate(112deg) brightness(95%) contrast(93%);
+}
+
+@font-face {
+    font-family: 'dosisregular';
+    src: url('fonts/dosis-regular-webfont.woff2') format('woff2'),
+         url('fonts/dosis-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'poppinsitalic';
+    src: url('fonts2/poppins-italic-webfont.woff2') format('woff2'),
+         url('fonts2/poppins-italic-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+.header{  
+  background-image: url('forest2.jpg');
+  background-size: 100vw 80vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: space-between;
+}
+
+.headerbox{
+  background-color: #d9f2d566;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.recycle{
+  width: 8vh;
+  height: 8vh;
+  margin: 2px;
+  filter: invert(26%) sepia(10%) saturate(6273%) hue-rotate(112deg) brightness(95%) contrast(93%);
+}
+
+.arrow{
+  width: 20vw;
+  height: 15vw;
+  filter: invert(52%) sepia(96%) saturate(504%) hue-rotate(70deg) brightness(100%) contrast(93%);
+}
+
+.logo{
+  width: 40vw;
+  height: 20vh;
+  margin-top: 18px;
+  margin-right: 10px;
+  margin-left:5px;
+  justify-content: center;
+}
+
+.logofooter{
+  width: 200px;
+  height: 50px;
+  margin-top: 18px;
+  margin-right: 10px;
+  margin-left:5px;
+  justify-content: center;
+}
+
+.motto{
+  font-size: 8vh;
+  font-family: 'poppinsitalic';
+  margin-left: 5px;
+  justify-content: center;
+  color: #096034ff;
+
+}
+
+.mottofooter{
+  font-size:  20px;
+  font-family: 'poppinsitalic';
+  margin-left: 5px;
+  justify-content: center;
+  color: black;
+
+}
+
+.welcome{
+  display: flex;
+  background-color: #9bcf63;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  width: 100vw;
+}
+
+.expbox{
+  width: 70vw;
+}
+
+.explanation{
+  font-family: 'dosisregular';
+  overflow-wrap: normal;
+  font-size: 20px;
+}
+
+.green{
+  color: #096034;
+}
+
+
+.box{
+  width: 30vw;
+  background-color: transparent;
+  border-top: 0px;
+  border-right: 0px;
+  border-left: 0px;
+  font-size: 3vh;;
+  color:#096034;
+  transition: width 0.4s ease-in-out;
+}
+
+.box:hover{
+  border-top: 0px;
+  border-right: 0px;
+  border-left: 0px;
+  width: 40vw;
+  height: 30px;
+}
+
+.next{
+  color: white;
+  background-color: #096034;
+  border: none;
+  font-size: 30px;
+  width: 100px;
+  height: 50px;
+  border-radius: 5px;
+  font-family: "poppinsmedium"
+}
+
+.next:hover{
+  font-family: "poppinsitalic"
+}
+
+.buttonStart {
+  background-color: #51b148;
+  border-color: transparent;
+  border-radius: 5px;
+  font-family: 'poppinsmedium';
+  font-size: 30px;
+  text-decoration: none;
+  color: black; 
+  padding: 10px;
+}
+
+.recyclebutton{
+  width: 20px;
+  height: 20px;
+  filter: invert(26%) sepia(10%) saturate(6273%) hue-rotate(112deg) brightness(95%) contrast(93%);
+}
+
+.buttonStart a{
+  text-decoration: none;
+  color: black; 
+}
+
+.buttonStart a:hover{
+  color: #05817d;
+}
+
+.buttonlink{
+  font-size: 30px;
+  text-decoration: none;
+  color: white;
+}
+
+.divline74{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  margin-left: 100px;
+  margin-right: 100px;
+  margin-top: 2px;
+}
+
+.buttons{
+  display: flex;
+  justify-content: center;
+}
+
+.one{
+  display: flex;
+  background-color: #d9f2d5ff;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  width: 100vw;
+  padding: 0;
+  font-family: "pontano_sansregular";
+}
+
+
+.map{
+  height: 50vh;
+  width: 50vw;
+}
+
+.two{
+  display: flex;
+  background-color: #b8f567;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  width: 100vw;
+  font-family: "pontano_sansregular";
+}
+
+.three{
+  display: flex;
+  background-color: #51b148ff;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  width: 100vw;
+  font-family: "pontano_sansregular";
+}
+
+.four{
+  display: flex;
+  background-color: #9bcf63;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100vw;
+  font-family: "poppinsmedium";
+}
+
+
+/*
+
+.mass {
+  position: absolute;
+  top: 475px;
+  left: 745px;
+  text-decoration: none;
+  font-family: poppins;
+  color: green;
+}
+
+.newyork {
+  position: absolute;
+  top: 950px;
+  left: 600px;
+  text-decoration: none;
+  font-family: poppins;
+  color: green;
+}
+
+.maine {
+  position: absolute;
+  top: 750px;
+  left: 950px;
+  text-decoration: none;
+  font-family: poppins;
+  color: green;
+}
+
+.connecticut {
+  position: absolute;
+  top: 1050px;
+  left: 771px;
+  text-decoration: none;
+  font-family: poppins;
+  color: green;
+}
+
+.newjersey {
+  position: absolute;
+  top: 1150px;
+  left: 669px;
+  text-decoration: none;
+  font-family: poppins;
+  color: green;
+}
+
+.rhode {
+  position: absolute;
+  top: 1050px;
+  left: 830px;
+  text-decoration: none;
+  font-family: poppins;
+  color: green;
+}
+
+.vermont {
+  position: absolute;
+  top: 890px;
+  left: 765px;
+  text-decoration: none;
+  font-family: poppins;
+  color: green;
+}
+
+.newhamp {
+  position: absolute;
+  top: 900px;
+  left: 819px;
+  text-decoration: none;
+  font-family: poppins;
+  color: green;
+}
+
+.penn {
+  position: absolute;
+  top: 1100px;
+  left: 460px;
+  text-decoration: none;
+  font-family: poppins;
+  color: green;
+} */
+
+.resultCol{
+  width: 50%;
+  word-wrap: normal;
+}
+
+
+
+.learnmore {
+  border-color: transparent;
+  border-radius: 5px;
+  font-size: 30px;
+  height: 50px;
+  text-decoration: none;
+  color: black; 
+  padding: 10px;
+  margin: 20px; 
+  background-color: #b8f567;
+  font-family: dosisregular;
+}
+
+
+.learnmore a{
+  text-decoration: none;
+  color: black; 
+}
+
+.learnmore a:hover{
+  color: #05817d;
+}
+
+.learnmorelink{
+  font-size: 30px;
+  text-decoration: none;
+  color: white;
+}
+
+.buttonAgain {
+  background-color: #51b148;
+  border-color: transparent;
+  border-radius: 5px;
+  font-family: 'poppinsmedium';
+  font-size: 30px;
+  height: 50px;
+  margin: 20px;
+  text-decoration: none;
+  color: black; 
+  padding: 10px;
+}
+
+
+.buttonAgain a{
+  text-decoration: none;
+  color: black; 
+}
+
+.buttonAgain a:hover{
+  color: #05817d;
+}
+
+.buttonlinkAgain{
+  font-size: 30px;
+  text-decoration: none;
+  color: white;
+}

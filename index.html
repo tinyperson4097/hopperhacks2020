@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html>
+   <head>
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width">
+      <title>repl.it</title>
+      <link href="style.css" rel="stylesheet" type="text/css" />
+      <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+   </head>
+   <div class="header" style="height:100vh; width:100vw">
+      <div class="headerbox">
+         <img class="logo" src="LogoMakr_2idOGV-4.png" alt="Re-Green logo">
+         <h4 class="motto">Repurpose, Recycle, Redirect.
+            <img class="recycle" src="recycle.svg"/>
+         </h4>
+      </div>
+      <a href="#welcome" style="align-self: center">
+      <img class="arrow" src="arrow.png"/>
+      </a>
+   </div>
+   <body style="background-color: #d9f2d5">
+      <div id="welcome" class="welcome">
+         <div class="expbox">
+            <h3 class="explanation">
+               Welcome to Re-Green, where you can re-green your life by repurposing, recycling, and redirecting your trash.
+            </h3>
+            <h3 class="explanation">All too often, our trash ends up in forests, grasslands, and oceans, covering up our beautiful planet. In order to restore the <span class="green">color</span> and <span class="green">health</span> to our natural landscape, we must divert our waste from the trash can. </h3>
+            <h3 class="explanation">Tell us what you no longer need/want, and we'll tell you what you can do with it instead of throwing it in the dumpster. </h3>
+         </div>
+         <div class="buttons">
+            <button id='start' class='buttonStart'>
+            <a href="#stepOne" class="buttonlink">
+            Re-Green 
+            <img class="recyclebutton" src="recycle.svg"/> 
+            Now
+            </a></button>
+         </div>
+      </div>
+      <container id='stepOne' class="one" style="margin: 0">
+         <h2 style="margin: 0">
+            Step 1
+         </h2>
+         <h3 style="margin: 0"> Which state do you live in?</h3>
+         <div style="display: flex; flex-direction: row;
+            justify-content: center;">
+            <div id="map" class="map"></div>
+            <button class="buttonmap next"><a href="#stepTwo" class="buttonlink">Next</a></button>
+         </div>
+      </container>
+      <!-- <h3>
+         What state are you in?
+         </h3>
+         <img class="map" src="png-usa-outline-us-map-outline-png-87-detailed-with-us-map-outline-png-2400.png">
+         <button class="mass">MA</button>
+         <button class = "connecticut">CT</button>
+         <button class="maine">Maine</button>
+         <button class="newyork">New York</button>
+         <button class="newjersey">NJ</button>
+         <button class="newhamp">NH</button>
+         <button class="vermont">VT</button>
+         <button class="penn">Pennsylvania</button>
+         <button class="rhode">RI</button> -->
+      <div class="two" id="stepTwo">
+         <h2>
+            Step 2
+         </h2>
+         <h3>
+            What do you want to recycle?
+         </h3>
+         <form id="recyclestep">
+            <input
+               class="userInput1 box" type="text" 
+               placeholder="Ex.: clothing, packaging, waterbottle"
+               />
+            <input class="button1 next" type="submit" value="Next">
+            </input>
+         </form>
+         </div id="stepThree">
+         <div class="three">
+            <h2 >
+               Step 3
+            </h2>
+            <h3>
+               What material is it made of?
+            </h3>
+            <form>
+               <input
+                  class="userInput2 box"
+                  type="text" 
+                  placeholder="Ex.: plastic, nylon, cotton"
+                  />
+               <input class="button2 next" type="submit" value="Next"/>
+            </form>
+         </div>
+         <div class="four">
+            <h1 id="results" style="margin: 20px">
+               Results
+            </h1>
+            <div class="divline74">
+               <div class="resultCol">
+                  <h2>
+                     Repurpose
+                  </h2>
+                  <h3>
+                     Reuse
+                  </h3>
+                  <p class="reuse"></p>
+                  <div class="reuseLinks">
+                  </div>
+               </div>
+               <div class="resultCol">
+                  <h2>
+                     Redirect
+                  </h2>
+                  <p>Depending on the condition of your unwanted item, you might want to...
+                  </p>
+                  <h3>
+                     Resell
+                  </h3>
+                  <p class="resell"></p>
+                  <div class="resellLinks">
+                  </div>
+                  <h3>
+                     Donate
+                  </h3>
+                  <p class="donate"></p>
+                  <div class="donateLinks">
+                  </div>
+                  <h3>
+                     Recycle
+                  </h3>
+                  <p class="recycle2"></p>
+                  <div class="recycleLinks">
+                  </div>
+               </div>
+            </div>
+            <div style="display: flex">
+               <button
+                  class='learnmore'>
+               <a href="/learnmore.html" class="buttonlink">
+               Lean More
+               </a></button>
+               <button id='start' class='buttonAgain'>
+               <a href="#stepOne" class="buttonlink">
+               Re-Green  <img class="recyclebutton" src="recycle.svg"/> Again
+               </a></button>
+            </div>
+         </div>
+  <footer class="footer" style="height:50px">
+         <img class="logofooter" src="LogoMakr_2idOGV-4.png" alt="Re-Green logo">
+         <h4 class="mottofooter">Repurpose, Recycle, Redirect.
+            <img class="recyclefooter" src="recycle.svg"/>
+         </h4>
+  </footer>
+
+</html>
+<script type="text/javascript" src="mapdata.js"></script>
+<script type="text/javascript" src="usmap.js"></script>
+<script type="text/javascript" src="select.js"></script>
+<!-- <script>
+   simplemaps_select.map=simplemaps_usmap; // tells the script which map to work with
+   /* set any other options, for example:
+   simplemaps_select.selected_color='red';*/
+   </script> -->
+<script src="script.js"></script>
+</body>
+</div>
+<div>
+</div>
+</html>
